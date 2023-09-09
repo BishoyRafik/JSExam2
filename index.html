@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap library -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontaweasome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="movieAPP/logo.png" type="image/x-icon">
+    <title>Movie App rep</title>
+</head>
+<body>
+    <!-- side nav start -->
+    <nav>
+        <div class="navtoggler d-flex flex-column justify-content-between">
+            <div class="menu-logo w-100 text-center p-3">
+                <img src="movieAPP/logo.png" class="w-100" alt="logo">
+            </div>
+            <div class="toggler text-center">
+                <input type="checkbox" id="toggle" hidden>
+                <label for="toggle"><i class="d-none fa-solid fa-close fa-2x"></i></label>
+                <label for="toggle"><i class="fa-solid fa-bars fa-2x"></i></label>
+            </div>
+        </div>
+        <div class="nav-content text-white d-flex flex-column justify-content-between py-3">
+            <div class="navbody d-flex flex-column">
+                <a href="" class="navlinks text-decoration-none my-2 px-3 text-capitalize" id="playing">now playing</a>
+                <a href="" class="navlinks text-decoration-none my-2 px-3 text-capitalize" id="popular">popular</a>
+                <a href="" class="navlinks text-decoration-none my-2 px-3 text-capitalize" id="top">top rated</a>
+                <a href="" class="navlinks text-decoration-none my-2 px-3 text-capitalize" id="trending">trending</a>
+                <a href="" class="navlinks text-decoration-none my-2 px-3 text-capitalize" id="upcoming">upcoming</a>
+                <a href="#contactUs" class="navlinks text-decoration-none my-2 px-3 text-capitalize" id="contact">contact us</a>
+            </div>
+            <div class="copywrites p-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <p class="text-capitalize">copyright &copy; 2022 all rights reserved.</p>
+            </div>
+        </div>
+    </nav>
+    <!-- side nav end -->
+    <!-- main body -->
+    <div class=" mainHome container">
+        <div class="row">
+            <div class="col-12 p-4">
+                <input id="searchBar" type="search" placeholder="Search" class="form-control w-50 mx-auto bg-transparent rounded-pill text-white shadow-none border-white px-3">
+            </div>
+        </div>
+        <div class="row" id="showmovies">
+            <!-- <div class="col-lg-4 p-4">
+                <div class="movie rounded-2 position-relative overflow-hidden">
+                    <img src="movieAPP/drCySAAAvegq1vQRGRqPKN9f00w.jpg" class="w-100" alt="">
+                    <div class="hover rounded-2 d-flex flex-column justify-content-start">
+                        <div class="hoverTxt p-3">
+                            <h2 class="text-center">movie's NAME</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, nam eveniet harum culpa dolor nesciunt delectus! Nam dignissimos, iste laborum suscipit hic soluta, fugit ut quas molestias nostrum iusto perferendis!</p>
+                            <p>release date : 2023-08-02</p>
+                            <p>rating</p>
+                            <p class="rating rounded-pill">7.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- contact us -->
+    <div class="contactUs container p-5 d-flex align-items-center justify-content-center" id="contactUs">
+            <div class="row g-3 ">
+                <div class="col-lg-12">
+                    <h2 class="text-white">Contact Us</h2>
+                </div>
+                <div class="col-lg-6 px-md-5 px-sm-5">
+                    <input type="text" class="form-control bg-transparent border-0 border-bottom rounded-0 text-white" placeholder="Enter Your Name">
+                </div>
+                <div class="col-lg-6 px-md-5 px-sm-5">
+                    <input type="text" class="form-control  bg-transparent border-0 border-bottom rounded-0 text-white" placeholder="Enter Your Email">
+                </div>
+                <div class="col-lg-6 px-md-5 px-sm-5">
+                    <input type="text" class="form-control  bg-transparent border-0 border-bottom rounded-0 text-white" placeholder="Enter Your Phone">
+                </div>
+                <div class="col-lg-6 px-md-5 px-sm-5">
+                    <input type="text" class="form-control  bg-transparent border-0 border-bottom rounded-0 text-white" placeholder="Enter Your Age">
+                </div>
+                <div class="col-lg-6 px-md-5 px-sm-5">
+                    <input type="text" class="form-control  bg-transparent border-0 border-bottom rounded-0 text-white" placeholder="Enter Your Password">
+                </div>
+                <div class="col-lg-6 px-md-5 px-sm-5">
+                    <input type="text" class="form-control  bg-transparent border-0 border-bottom rounded-0 text-white" placeholder="Repassword">
+                </div>
+                <div class="col-12 d-flex justify-content-start">
+                    <button type="submit" class="btn btn-outline-danger" placeholder="Repassword">Submit</button>
+                </div>
+            </div>
+    </div>
+    <!-- jquery -->
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <!-- js bootstrap link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main JS file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
